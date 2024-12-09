@@ -17,7 +17,7 @@ export default function Header() {
    return (
       <header className="">
          <div className="container mx-auto px-4 py-4">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center sm:flex-row flex-col justify-between">
                <div className="flex items-center">
                   <Link href="/" className="flex items-start space-x-2">
                      <span className="relative w-[120px] h-[120px] md:w-[150px] md:h-[150px]">

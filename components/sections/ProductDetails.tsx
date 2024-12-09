@@ -8,7 +8,7 @@ export default function ProductDetails() {
    const [quantity, setQuantity] = useState(1);
 
    return (
-      <section className="py-8">
+      <section className="">
          <div className="container mx-auto px-4">
             <div className="flex flex-col lg:flex-row gap-8">
                {/* Product Images */}
@@ -96,7 +96,7 @@ export default function ProductDetails() {
                   </div>
                </div>
             </div>
-            <div className="grid grid-cols-2">
+            <div className="grid grid-cols-1 lg:grid-cols-2 mb-6">
                <div>
                   <h2 className="font-serif text-gray-700 text-2xl mb-2">
                      Description produit

@@ -17,7 +17,7 @@ export default function NewsletterSection() {
                   /> */}
                </div>
                <div className="flex-1 bg-pink-50 p-8 rounded-3xl h-max w-full">
-                  <h2 className="text-2xl font-semibold mb-2 font-serif">
+                  <h2 className="text-2xl mb-2 font-serif">
                      S'inscrire & économiser{" "}
                      <span className="text-blue-500">10%</span>
                   </h2>
@@ -27,7 +27,7 @@ export default function NewsletterSection() {
                      highlights lunch. Company another pushback items desk or
                      any.
                   </p>
-                  <div className="flex gap-4">
+                  <div className="flex sm:flex-row flex-col gap-4">
                      <input
                         type="email"
                         placeholder="john@doe.com"

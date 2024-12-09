@@ -14,8 +14,8 @@ export default function Home() {
          <Navigation />
 
          <main className="flex-1">
-            <div className="container mx-auto px-4 py-4 mt-6">
-               <div className="text-sm text-gray-600 mb-4 flex items-center gap-2">
+            <div className="container mx-auto px-4 py-6">
+               <div className="text-sm text-gray-600  flex items-center gap-2">
                   <span>Home</span>
                   <BsDot className="text-gray-400" />
                   <span>Art de la table</span>
